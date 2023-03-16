@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <title>Home page</title>
+</head>
+<style>
+  body {
+    background-image: url('back1.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    box-sizing: border-box;
+
+  }
+
+  header img {
+    margin-top: -50px;
+    margin-left: -20px;
+    filter: brightness(200%);
+    width: 300px;
+    height: 250px;
+    display: flex;
+    float: left;
+  }
+
+  li {
+    font-weight: bold;
+    font-size: 22px;
+    list-style: none;
+    float: right;
+    text-transform: none;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+
+  a {
+    color: rgb(246, 226, 9);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(23, 16, 228);
+    text-decoration: underline;
+  }
+
+  #move {
+    font-weight: bold;
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+    clear: both;
+    font-size: 30px;
+    border: 2px solid red;
+    height: 70px;
+    background-color: rgb(255, 247, 0);
+
+  }
+
+  #moving {
+    margin-top: 20px;
+  }
+
+  .head1 {
+    border: 2px solid white;
+    background-color: yellow;
+    margin-right: 1480px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+  }
+
+  .head1:hover{
+    background-color: white;
+  }
+
+  #panadol {
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 50px;
+    background: none;
+    transition: 1s;
+  }
+
+  #panadol:hover{
+    transform: scale(1.5);
+  }
+
+  .medicine {
+    border-radius: 30px;
+    border: 5px solid white;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 50px;
+    border-radius: 30px;
+    transition: 1s;
+  }
+
+  .medicine:hover{
+     transform: scale(1.5);
+  }
+
+  .description {
+    display: inline-flex;
+    margin-right: 130px;
+    margin-left: 70px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    font-family: bolder;
+  }
+
+  .instrument {
+    width: 500px;
+    height: 300px;
+    border: 5px solid rgb(103, 20, 227);
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 150px;
+    transition: 1s;
+  }
+
+  .instrument:hover{
+    transform: scale(1.5);
+  }
+
+  .instru {
+    border: 3px solid;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    display: inline-flex;
+    margin-bottom: 30px;
+  }
+
+  .instruDescription {
+    color: rgb(17, 16, 16);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+</style>
+
+<body>
+
+
+  <header class="navbar">
+    <img src="logo4.png" alt="">
+
+    <ol class="align">
+
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Search</a></li>
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="home.html">Home</a></li>
+
+    </ol>
+  </header>
+
+  <div id="move">
+    <marquee id="moving" behavior="" direction="right">WELCOME TO MEDIX PHARMACY</marquee>
+  </div>
+  <div>
+    <h1 class="head1">Medicines</h1>
+  </div>
+  <div class="pics">
+    <img id="panadol" src="panadol.avif" alt="">
+    <img class="medicine" src="medicine.jpg" alt="">
+    <img class="medicine" src="medicine1.jfif" alt="">
+    <img class="medicine" src="medicine2.jfif" alt="">
+    <div>
+      <p class="description">Panadol Original Tablets is a mild analgesic and antipyretic, and is recommended for the
+        treatment of most painful and febrile conditions</p>
+      <p class="description">Antiemetics may help reduce nausea and vomiting by speeding up the emptying of the gut to
+        relieve the nausea and uncomfortable feeling of fullness in the stomach.</p>
+      <p class="description">Rigix is used to treat allergy, urticaria, and allergy-induced asthma, and to decrease
+        hives and pruritus.</p>
+      <p class="description">a medicated, syruplike fluid, usually flavored and nonnarcotic or mildly narcotic, for
+        relieving coughs or soothing irritated throats.</p>
+    </div>
+    <div class="pics">
+      <img id="panadol" src="medicine3.jfif" alt="">
+      <img class="medicine" src="medicine4.jfif" alt="">
+      <img class="medicine" src="medicine5.jfif" alt="">
+    </div>
+
+    <div>
+      <p class="description">A drug that reduces pain, fever, inflammation, and blood clotting. Acetylsalicylic acid
+        (ASA) is a commonly used drug for the treatment of pain and fever due to various causes.</p>
+      <p class="description">Digex is a digestive enzyme and anticholinergic combination. It works by helping the body
+        to digest protein, starch, and fat. It also decreases bowel spasms.</p>
+      <p class="description">FLAGYL is indicated in the treatment of acute intestinal amebiasis (amebic dysentery) and
+        amebic liver abscess.</p>
+    </div>
+
+    <div class="instru">
+      <p class="instruDescription">We also provide a range of health and wellness services that help you manage your
+        health and prevent illness.
+        At our pharmacy we prioritize the patient safety and convenience.</p>
+      <img src="instrument1.jpg" alt="" class="instrument">
+    </div>
+
+    <div class="instru">
+      <img src="instrument2.jpg" alt="" class="instrument">
+      <p class="instruDescription">We believe that everyone deserves access to quality health care and we strive to make
+        that reality for our community.</p>
+    </div>
+
+</body>
+
+</html>

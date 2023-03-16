@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap" rel="stylesheet">
+  <title>login page</title>
+</head>
+
+<style>
+  body {
+    box-sizing: border-box;
+    background-image: url('name2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    image-resolution: 50px;
+  }
+
+  img {
+    margin-top: -50px;
+    margin-left: -20px;
+    filter: brightness(20%);
+    width: 300px;
+    height: 250px;
+    float: left;
+  }
+
+  li {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    text-transform: none;
+    margin-right: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+
+  a {
+    color: rgb(246, 9, 9);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: rgb(23, 16, 228);
+    text-decoration: underline;
+  }
+
+  .sign{
+    color: aliceblue;
+    clear:both;
+    width: 450px;  
+    position: relative;
+    left: 580px;
+    text-align: center;
+    border: 2px solid red;
+    margin-right: 200px;
+    background-color: rgb(8, 8, 8);
+    opacity: 0.6;
+  }
+
+  .data
+  {
+    width: 250px;
+    height: 25px;
+    outline: 0;
+  }
+
+  .biodata{
+    position: relative;
+    right: 140px;
+    outline: 0;
+  }
+
+  #sub{
+   margin: 30px;
+   margin-right: 100px;
+   font-weight: bold;
+  }
+  
+  #res{
+    font-weight: bold;
+    margin-right: 50px;
+
+  }
+</style>
+
+
+<body>
+
+  <div>
+    <img src="logo4.png" alt="">
+  </div>
+
+  <header class="navbar">
+    <ol class="align">
+
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Search</a></li>
+      <li><a href="aboutus.html">About us</a></li>
+      <li><a href="home.html">Home</a></li>
+    </ol>
+   
+  </header>
+  <form class="sign">
+
+    <h1>Sign Up</h1>
+
+    <p class="biodata">Username : </p>
+
+    <input type="text" class="data" placeholder="Enter username" required="required">
+
+    <p class="biodata">Email : </p>
+
+    <input type="email" name="" class="data" placeholder="Enter Email" required="required">
+
+    <p class="biodata">Password : </p>
+
+    <input type="password" name="" class="data"placeholder="Enter password"  required="required"><br>
+
+    
+    <input type="submit" value="Submit" id="sub">
+
+    <input type="reset" value="Reset" id="res">
+  </form>
+  
+</body>
+
+</html>
